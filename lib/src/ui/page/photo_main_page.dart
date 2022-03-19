@@ -347,7 +347,7 @@ class _PhotoMainPageState extends State<PhotoMainPage>
         (indexOfSelected(entity) + 1).toString(),
         textAlign: TextAlign.center,
         style: TextStyle(
-          fontSize: 12.0,
+          fontSize: 10.0,
           color: options.textColor,
         ),
       );
