@@ -113,7 +113,7 @@ class _PhotoMainPageState extends State<PhotoMainPage>
   Widget build(BuildContext context) {
     var textStyle = TextStyle(
       color: options.textColor,
-      fontSize: 13.0,
+      fontSize: 12.0,
     );
     return Theme(
       data: Theme.of(context).copyWith(primaryColor: options.themeColor),
@@ -189,7 +189,7 @@ class _PhotoMainPageState extends State<PhotoMainPage>
           msg,
           style: TextStyle(
             color: options.textColor,
-            fontSize: 13.0,
+            fontSize: 12.0,
           ),
         ),
         duration: Duration(milliseconds: 1500),
