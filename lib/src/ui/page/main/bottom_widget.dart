@@ -36,7 +36,7 @@ class __BottomWidgetState extends State<_BottomWidget> {
 
   @override
   Widget build(BuildContext context) {
-    var textStyle = TextStyle(fontSize: 14.0);
+    var textStyle = TextStyle(fontSize: 12.0);
     const textPadding = const EdgeInsets.symmetric(horizontal: 16.0);
     return Container(
       color: options.themeColor,
