@@ -120,7 +120,7 @@ class _PhotoPreviewPageState extends State<PhotoPreviewPage> {
     var data = Theme.of(context);
     var textStyle = TextStyle(
       color: options.textColor,
-      fontSize: 13.0,
+      fontSize: 12.0,
     );
     return Theme(
       data: data.copyWith(
